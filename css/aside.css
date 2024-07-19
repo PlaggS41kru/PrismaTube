@@ -6,7 +6,7 @@ aside {
   list-style-type: none;
 }
 
-.aside__nav ul li a {
+.aside__nav ul li a{
   color: #0f0f0f;
   display: flex;
   align-items: center;
@@ -25,6 +25,13 @@ aside {
 .aside__nav ul li a img {
   margin-right: 24px;
   height: 20px;
+}
+
+.aside__nav_inscri ul li a img {
+  margin-right: 24px;
+  height: 40px;
+  border-radius: 20px;
+  width: 40px;
 }
 
 hr {
