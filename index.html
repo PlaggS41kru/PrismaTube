@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PrismaTube</title>
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="/images/logoprisma.svg" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -101,7 +101,7 @@
           </li>
           <li>
             <a href="/"
-              ><img src="images/aside/history.svg" alt="Playlist" />Playlist</a
+              ><img src="images/aside/playlist.svg" alt="Playlist" />Playlist</a
             >
           </li>
           <li>
@@ -148,6 +148,11 @@
             </li>
             <li>
               <a href="/"
+                ><img src="images/aside/short.svg" alt="Jogos" />Shorts</a
+              >
+            </li>
+            <li>
+              <a href="/"
                 ><img src="images/aside/movies.svg" alt="Moveis" />Filmes</a
               >
             </li>
@@ -184,26 +189,40 @@
         <nav class="aside__nav">
           <ul>
             <li>
-              <a href="/"><img src="#" alt="Canal 1" />Canal 1</a>
+              <a href="/"><img src="images/aside/PrismaStudio.svg" alt="Canal 6" />Prisma Studio</a>
             </li>
             <li>
-              <a href="/"><img src="#" alt="Canal 2" />Canal 2</a>
+              <a href="/"><img src="images/aside/youtube-svgrepo-com.svg" alt="Canal 7" />Prisma Premium</a>
             </li>
             <li>
-              <a href="/"><img src="#" alt="Canal 3" />Canal 3</a>
+              <a href="/"><img src="images/main/profile-youtube.svg" alt="Canal 1" />Prisma Tech</a>
             </li>
             <li>
-              <a href="/"><img src="#" alt="Canal 4" />Canal 4</a>
+              <a href="/"><img src="images/main/profile-youtube.svg" alt="Canal 2" />Lara Cristina</a>
             </li>
             <li>
-              <a href="/"><img src="#" alt="Canal 5" />Canal 5</a>
+              <a href="/"><img src="images/main/profile-youtube.svg" alt="Canal 3" />Brenda Verbena</a>
             </li>
             <li>
-              <a href="/"><img src="#" alt="Canal 6" />Canal 6</a>
+              <a href="/"><img src="images/main/profile-youtube.svg" alt="Canal 4" />Adrya Leal</a>
             </li>
             <li>
-              <a href="/"><img src="#" alt="Canal 7" />Canal 7</a>
+              <a href="/"><img src="images/main/profile-youtube.svg" alt="Canal 5" />Gabrieli Laurenço</a>
             </li>
+          </ul>
+        </nav>
+      </section>
+      <hr />
+      <section>
+        <h2>Mais da PrismaTube</h2>
+        <nav class="aside__nav">
+          <ul>
+            <li>
+              <a href="/"><img src="/images/aside/youtube-svgrepo-com.svg" alt="Ajuda" />Prisma Premium</a>
+            </li>
+            <li>
+              <a href="/"><img src="/images/aside/PrismaStudio.svg" alt="Ajuda" />Prisma Studio</a>
+            </li>           
           </ul>
         </nav>
       </section>
@@ -265,80 +284,193 @@
     <main>
       <div>
         <nav class="filters__area">
-            <button>Tudo</button>
-            <button>Programação</button>
-            <button>Javascript</button>
-            <button>Design</button>
-            <button>Edição de Vídeo</button>
-            <button>Modelagem 3D</button>
-            <button>Inglês</button>
-            <button>Games</button>
+          <button href="Tudo">Tudo</button>
+          <button>Programação</button>
+          <button>Javascript</button>
+          <button>Design</button>
+          <button>Edição de Vídeo</button>
+          <button>Modelagem 3D</button>
+          <button>Inglês</button>
+          <button>Games</button> 
         </nav>
       </div>
 
       <section class="videos__area">
-        <div class="video__container">
-          <img src="images/thumbs/brenda-verbena.jpg" alt="Video 1" />
-          <div class="video__info">
-            <h3>Título do vídeo 1</h3>
-            <p>Descrição do vídeo 1</p>
-            <span>1:23:45</span>
-            <span>25,000 visualizações</span>
-          </div>
-        </div>
 
-        <div class="video__container">
-          <img src="images/thumbs/caos-da-existencia.jpg" alt="Video 1" />
-          <div class="video__info">
-            <h3>Título do vídeo 1</h3>
-            <p>Descrição do vídeo 1</p>
-            <span>1:23:45</span>
-            <span>25,000 visualizações</span>
-          </div>
-        </div>
+        <article class="video__container">
+          <a href="#" class="video__thumbnail">
+            <img src="images/thumbs/brenda-verbena.jpg">
+          </a>
 
-        <div class="video__container">
-          <img src="images/thumbs/casa-do-horro.jpg" alt="Video 1" />
-          <div class="video__info">
-            <h3>Título do vídeo 1</h3>
-            <p>Descrição do vídeo 1</p>
-            <span>1:23:45</span>
-            <span>25,000 visualizações</span>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel__avatar" src="images/main/profile-youtube.svg" alt="">
+            </a>
+            <div class="video__details">
+              <a 
+              href="#" class="video__titulo">CORRUPTED - OS QUATRO CAVALHEIROS
+            </a>
+              <div>
+                <a 
+                href="#" class="video__channel">Brenda Verbena
+                </a>
+                <a href="#">
+                  <img class="check__circule" src="images/main/check-circle.svg" alt="">
+                </a>
+              </div>
+              <div class="videos__info">
+                <span>2 mil vizualizações • há 8 dias</span>
+              </div>
+            </div>
+            <a href="#"> <img class="options__button" src="images/main/options.svg" alt=""></a>
           </div>
-        </div>
+        </article>
+        
+        <article class="video__container">
+          <a href="#" class="video__thumbnail">
+            <img src="images/thumbs/caos-da-existencia.jpg">
+          </a>
 
-        <div class="video__container">
-          <img src="images/thumbs/coisas-estranhas.jpg" alt="Video 1" />
-          <div class="video__info">
-            <h3>Título do vídeo 1</h3>
-            <p>Descrição do vídeo 1</p>
-            <span>1:23:45</span>
-            <span>25,000 visualizações</span>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel__avatar" src="images/main/profile-youtube.svg" alt="">
+            </a>
+            <div class="video__details">
+              <a 
+              href="#" class="video__titulo">CAOS DA EXISTÊNCIA - A HUMANIZAÇÃO DO INEXISTENTE
+            </a>
+              <div>
+                <a 
+                href="#" class="video__channel">Adrya Leal
+                </a>
+                <a href="#">
+                  <img class="check__circule" src="images/main/check-circle.svg" alt="">
+                </a>
+              </div>
+              <div class="videos__info">
+                <span>3 mil vizualizações • há 12 dias</span>
+              </div>
+            </div>
+            <a href="#"> <img class="options__button" src="images/main/options.svg" alt=""></a>
           </div>
-        </div>
+        </article>
 
-        <div class="video__container">
-          <img src="images/thumbs/lara-cristina.jpg" alt="Video 1" />
-          <div class="video__info">
-            <h3>Título do vídeo 1</h3>
-            <p>Descrição do vídeo 1</p>
-            <span>1:23:45</span>
-            <span>25,000 visualizações</span>
+        <article class="video__container">
+          <a href="#" class="video__thumbnail">
+            <img src="images/thumbs/casa-do-horro.jpg">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel__avatar" src="images/main/profile-youtube.svg" alt="">
+            </a>
+            <div class="video__details">
+              <a 
+              href="#" class="video__titulo">UMA CASA DO HORROR
+            </a>
+              <div>
+                <a 
+                href="#" class="video__channel">Gabrieli Laurenço
+                </a>
+                <a href="#">
+                  <img class="check__circule" src="images/main/check-circle.svg" alt="">
+                </a>
+              </div>
+              <div class="videos__info">
+                <span>1 mil vizualizações • há 5 dias</span>
+              </div>
+            </div>
+            <a href="#"> <img class="options__button" src="images/main/options.svg" alt=""></a>
           </div>
-        </div>
+        </article>
 
-        <div class="video__container">
-          <img src="images/thumbs/provas-um-crime-em-paris.jpg" alt="Video 1" />
-          <div class="video__info">
-            <h3>UM CRIME EM PARIS</h3>
-            <p>Descrição do vídeo 1</p>
-            <span>1:23:45</span>
-            <span>25,000 visualizações</span>
+        <article class="video__container">
+          <a href="#" class="video__thumbnail">
+            <img src="images/thumbs/coisas-estranhas.jpg">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel__avatar" src="images/main/profile-youtube.svg" alt="">
+            </a>
+            <div class="video__details">
+              <a 
+              href="#" class="video__titulo">COISAS ESTRANHAS - UM FILME INDEPENDENTE PRISMATECH
+            </a>
+              <div>
+                <a 
+                href="#" class="video__channel">Brenda Verbena
+                </a>
+                <a href="#">
+                  <img class="check__circule" src="images/main/check-circle.svg" alt="">
+                </a>
+              </div>
+              <div class="videos__info">
+                <span>5 mil vizualizações • há 13 dias</span>
+              </div>
+            </div>
+            <a href="#"> <img class="options__button" src="images/main/options.svg" alt=""></a>
           </div>
-        </div>
+        </article>
 
+        <article class="video__container">
+          <a href="#" class="video__thumbnail">
+            <img src="images/thumbs/lara-cristina.jpg">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel__avatar" src="images/main/profile-youtube.svg" alt="">
+            </a>
+            <div class="video__details">
+              <a 
+              href="#" class="video__titulo">EM BUSCA DO AMOR
+            </a>
+              <div>
+                <a 
+                href="#" class="video__channel">Lara Cristina
+                </a>
+                <a href="#">
+                  <img class="check__circule" src="images/main/check-circle.svg" alt="">
+                </a>
+              </div>
+              <div class="videos__info">
+                <span>4 mil vizualizações • há 9 dias</span>
+              </div>
+            </div>
+            <a href="#"> <img class="options__button" src="images/main/options.svg" alt=""></a>
+          </div>
+        </article>
+
+        <article class="video__container">
+          <a href="#" class="video__thumbnail">
+            <img src="images/thumbs/provas-um-crime-em-paris.jpg">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel__avatar" src="images/main/profile-youtube.svg" alt="">
+            </a>
+            <div class="video__details">
+              <a 
+              href="#" class="video__titulo">PROVAS DE UM CRIME EM PARIS
+            </a>
+              <div>
+                <a 
+                href="#" class="video__channel">Adrya Leal
+                </a>
+                <a href="#">
+                  <img class="check__circule" src="images/main/check-circle.svg" alt="">
+                </a>
+              </div>
+              <div class="videos__info">
+                <span>10 mil vizualizações • há 6 dias</span>
+              </div>
+            </div>
+            <a href="#"> <img class="options__button" src="images/main/options.svg" alt=""></a>
+          </div>
+        </article>
       </section>
-
     </main>
 
   </body>
